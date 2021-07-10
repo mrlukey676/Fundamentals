@@ -1,0 +1,18 @@
+name: Admintools
+version: ${project.version}
+main: me.admintools.admintools.Admintools
+api-version: 1.17
+authors: [ MrLukey676 ]
+description: Admin Tools by MrLukey676
+commands:
+  fly:
+    description: Allows you to fly!
+  vanish:
+    description: Allows you to turn invisible!
+    aliases: [v]
+  invincible:
+    description: Allows you to not take any damage!
+    aliases: [nodmg]
+  die:
+    description: Kills you or a target!
+    aliases: [k]
