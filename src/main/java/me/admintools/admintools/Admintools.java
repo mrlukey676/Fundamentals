@@ -1,9 +1,6 @@
 package me.admintools.admintools;
 
-import me.admintools.admintools.commands.die;
-import me.admintools.admintools.commands.fly;
-import me.admintools.admintools.commands.invincible;
-import me.admintools.admintools.commands.vanish;
+import me.admintools.admintools.commands.*;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Admintools extends JavaPlugin {
@@ -20,6 +17,7 @@ public final class Admintools extends JavaPlugin {
         getCommand("vanish").setExecutor(new vanish());
         getCommand("invincible").setExecutor(new invincible());
         getCommand("die").setExecutor(new die());
+        getCommand("flyspeed").setExecutor(new flyspeed());
     }
 
     @Override
