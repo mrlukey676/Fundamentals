@@ -16,3 +16,5 @@ commands:
   die:
     description: Kills you or a target!
     aliases: [k]
+  heal:
+    description: Heals you or target!

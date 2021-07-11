@@ -16,6 +16,5 @@ commands:
   die:
     description: Kills you or a target!
     aliases: [k]
-  flyspeed:
-    description: Change the speed of flight!
-    aliases: [fs]
+  heal:
+    description: Heals you or target!
