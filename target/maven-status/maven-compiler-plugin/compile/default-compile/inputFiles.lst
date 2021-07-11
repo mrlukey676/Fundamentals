@@ -1,5 +1,6 @@
-/Users/lukey/Desktop/DEV/Minecraft/Plugins/Admin Tools/src/main/java/me/admintools/admintools/commands/fly.java
-/Users/lukey/Desktop/DEV/Minecraft/Plugins/Admin Tools/src/main/java/me/admintools/admintools/commands/vanish.java
-/Users/lukey/Desktop/DEV/Minecraft/Plugins/Admin Tools/src/main/java/me/admintools/admintools/Admintools.java
-/Users/lukey/Desktop/DEV/Minecraft/Plugins/Admin Tools/src/main/java/me/admintools/admintools/commands/die.java
-/Users/lukey/Desktop/DEV/Minecraft/Plugins/Admin Tools/src/main/java/me/admintools/admintools/commands/invincible.java
+/Users/lukey/Documents/GitHub/spigotadmintools/src/main/java/me/admintools/admintools/commands/invincible.java
+/Users/lukey/Documents/GitHub/spigotadmintools/src/main/java/me/admintools/admintools/commands/fly.java
+/Users/lukey/Documents/GitHub/spigotadmintools/src/main/java/me/admintools/admintools/commands/vanish.java
+/Users/lukey/Documents/GitHub/spigotadmintools/src/main/java/me/admintools/admintools/commands/die.java
+/Users/lukey/Documents/GitHub/spigotadmintools/src/main/java/me/admintools/admintools/commands/heal.java
+/Users/lukey/Documents/GitHub/spigotadmintools/src/main/java/me/admintools/admintools/Admintools.java

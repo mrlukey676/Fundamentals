@@ -17,7 +17,8 @@ public final class Admintools extends JavaPlugin {
         getCommand("vanish").setExecutor(new vanish());
         getCommand("invincible").setExecutor(new invincible());
         getCommand("die").setExecutor(new die());
-        getCommand("heal").setExecutor(new die());
+        getCommand("heal").setExecutor(new heal());
+        getCommand("feed").setExecutor(new feed());
     }
 
     @Override
