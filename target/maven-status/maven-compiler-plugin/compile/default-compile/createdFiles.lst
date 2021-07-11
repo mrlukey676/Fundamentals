@@ -1,5 +1,6 @@
 me/admintools/admintools/commands/fly.class
 me/admintools/admintools/commands/invincible.class
+me/admintools/admintools/commands/flyspeed.class
 me/admintools/admintools/commands/vanish.class
 me/admintools/admintools/commands/die.class
 me/admintools/admintools/Admintools.class
