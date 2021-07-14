@@ -19,6 +19,7 @@ public final class Admintools extends JavaPlugin {
         getCommand("die").setExecutor(new die());
         getCommand("heal").setExecutor(new heal());
         getCommand("feed").setExecutor(new feed());
+        getCommand("nick").setExecutor(new nick());
     }
 
     @Override

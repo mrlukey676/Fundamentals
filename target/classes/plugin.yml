@@ -18,3 +18,7 @@ commands:
     aliases: [k]
   heal:
     description: Heals you or target!
+  feed:
+    description: Feeds you or target!
+  nick:
+    description: Change your name!
