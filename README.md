@@ -17,3 +17,5 @@ Command <ARGS> -- Description -- Permission
 /feed <IGN> -- Sets your's (without ign) or target's (with ign) hunger to full -- admintools.feed
   
 /heal <IGN> -- Sets your's (without ign) or target's (with ign) hunger and health to full -- admintools.heal
+  
+/nick <nickname> -- Sets your nickname
