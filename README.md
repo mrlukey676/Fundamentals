@@ -10,6 +10,7 @@ Hello! Welcome to the GitHub page for **AdminTools**. This is a plugin I've been
 |/feed|N/A|Feeds you!|admintools.feed|
 |/nick|N/A|Changes your name in chat!|admintools.nick|
 |   |   |   |   |
+
 This list may not be fully up to date! For a complete list, run the plugin and do `/help Admintools`.
 
 All* commands in the above table support an IGN argument. For example, `/fly MrLukey676` would put player MrLukey676 into fly while `/fly` on its own would put you into fly. 
