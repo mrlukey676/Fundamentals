@@ -1,19 +1,19 @@
-# spigotadmintools
-New Spigot Plugin for Server Admins
+# AdminTools for Spigot/Paper 1.17
+Hello! Welcome to the GitHub page for **AdminTools**. This is a plugin I've been working on especially for Minecraft server admins and moderators. Check out the list of features below!
+|Command|Aliases|Description|Permission|
+|---|---|---|---|
+|/fly|N/A|Fly in survival!|admintools.fly|
+|/vanish|/v|Become invisible!|admintools.vanish|
+|/die|/k|Kills a target|admintools.die|
+|/invincible|/nodmg|Makes you invincible!|admintools.invincible|
+|/heal|N/A|Heals you!|admintools.heal|
+|/feed|N/A|Feeds you!|admintools.feed|
+|/nick|N/A|Changes your name in chat!|admintools.nick|
+|   |   |   |   |
 
-There are only 6 commands currently, but I will add more in the future!
+This list may not be fully up to date! For a complete list, run the plugin and do `/help Admintools`.
 
-Command <ARGS> -- Description -- Permission
-  
-  
-/die <IGN> -- This kills a specified player (you if IGN is not speified). -- admintools.die
-  
-/fly <IGN> -- This allows you to fly -- admintools.fly
-  
-/invincible <IGN> -- This allows you to become invincible -- admintools.invincible
-  
-/vanish <IGN> -- This allows you to become invisible -- admintools.vanish
+All* commands in the above table support an IGN argument. For example, `/fly MrLukey676` would put player MrLukey676 into fly while `/fly` on its own would put you into fly. 
+*This is except for `/nick`. To use this, you specify the name you would like to use as your nick. For example, `/nick Dream` would change my nickname to Dream and `/nick` would reset it.
 
-/feed <IGN> -- Sets your's (without ign) or target's (with ign) hunger to full -- admintools.feed
-  
-/heal <IGN> -- Sets your's (without ign) or target's (with ign) hunger and health to full -- admintools.heal
+*This plugin has been developed in the UK by MrLukey676*
