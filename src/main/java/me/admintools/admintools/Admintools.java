@@ -20,6 +20,9 @@ public final class Admintools extends JavaPlugin {
         getCommand("heal").setExecutor(new heal());
         getCommand("feed").setExecutor(new feed());
         getCommand("nick").setExecutor(new nick());
+        getCommand("gmode").setExecutor(new gmode());
+        getCommand("compasstarget").setExecutor(new compasstarget());
+        getCommand("setspawn").setExecutor(new setspawn());
     }
 
     @Override

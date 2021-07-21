@@ -22,3 +22,12 @@ commands:
     description: Feeds you or target!
   nick:
     description: Change your name!
+  gmode:
+    description: Old numbers for gamemode changes!
+    aliases: [gm]
+  compasstarget:
+    description: Sets the compass target!
+    aliases: [ct]
+  setspawn:
+    description: Sets your spawn point to your location.
+    aliases: [sp]
