@@ -23,6 +23,8 @@ public final class Admintools extends JavaPlugin {
         getCommand("gmode").setExecutor(new gmode());
         getCommand("compasstarget").setExecutor(new compasstarget());
         getCommand("setspawn").setExecutor(new setspawn());
+        getCommand("day").setExecutor(new day());
+        getCommand("night").setExecutor(new night());
     }
 
     @Override

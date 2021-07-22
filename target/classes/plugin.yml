@@ -31,3 +31,7 @@ commands:
   setspawn:
     description: Sets your spawn point to your location.
     aliases: [sp]
+  day:
+    description: Sets the time to day!
+  night:
+    description: Sets the time to night!
