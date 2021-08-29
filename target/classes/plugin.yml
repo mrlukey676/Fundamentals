@@ -37,5 +37,5 @@ commands:
     description: Sets the time to night!
   spawn:
     description: Go to spawn!
-  newwarp:
-    description: Set a new warp!
+  world:
+    description: TP to different worlds!

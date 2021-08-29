@@ -33,7 +33,7 @@ public final class Admintools extends JavaPlugin {
         getCommand("day").setExecutor(new day());
         getCommand("night").setExecutor(new night());
         getCommand("spawn").setExecutor(new spawn());
-        getCommand("newwarp").setExecutor(new newwarp());
+        getCommand("world").setExecutor(new world());
     }
 
     @Override
