@@ -20,7 +20,7 @@ public class spawn implements CommandExecutor {
             Player player = (Player) sender;
             World w = player.getWorld();
             Location spawn = new Location(getServer().getWorld("world"),0,255,0);
-            if(player.hasPermission("admintools.spawn")){
+            if(player.hasPermission("fundamentals.spawn")){
                 if(args.length == 0){
                     player.teleport(spawn.getWorld().getSpawnLocation());
                     player.sendMessage(ChatColor.AQUA + "You have been sent to spawn!");

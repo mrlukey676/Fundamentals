@@ -12,7 +12,7 @@ public class vanish implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if(sender instanceof Player){
             Player player = (Player) sender;
-            if(player.hasPermission("admintools.vanish")){
+            if(player.hasPermission("fundamentals.vanish")){
                 if(args.length == 0){
                     if(player.isInvisible()){
                         player.setInvisible(false);

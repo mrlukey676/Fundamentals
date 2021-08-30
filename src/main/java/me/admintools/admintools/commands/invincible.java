@@ -12,7 +12,7 @@ public class invincible implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if(command.getName().equals("invincible")){
             Player player = (Player) sender;
-            if(player.hasPermission("admintools.invincible")){
+            if(player.hasPermission("fundamentals.invincible")){
                 if(args.length == 0){
                     if(player.isInvulnerable()){
                         player.setInvulnerable(false);

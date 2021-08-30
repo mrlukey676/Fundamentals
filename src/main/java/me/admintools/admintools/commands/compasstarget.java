@@ -11,7 +11,7 @@ public class compasstarget implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if(sender instanceof Player){
             Player player = (Player) sender;
-            if(player.hasPermission("admintools.compasstarget")){
+            if(player.hasPermission("fundamentals.compasstarget")){
                 player.setCompassTarget(player.getLocation());
                 player.sendMessage(ChatColor.AQUA + "Set compass target to your location.");
             }

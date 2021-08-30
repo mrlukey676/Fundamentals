@@ -13,7 +13,7 @@ public class night implements CommandExecutor {
         if(sender instanceof Player){
             Player player = (Player) sender;
             World w = player.getWorld();
-            if(player.hasPermission("admintools.night")){
+            if(player.hasPermission("fundamentals.night")){
                 w.setTime(14000);
                 player.sendMessage(ChatColor.AQUA + "The time has been set to " + ChatColor.GOLD + "night!");
             }else{

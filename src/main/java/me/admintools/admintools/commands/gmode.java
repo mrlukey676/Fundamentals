@@ -12,7 +12,7 @@ public class gmode implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if(sender instanceof Player){
             Player player = (Player) sender;
-            if(player.hasPermission("admintools.gmode")){
+            if(player.hasPermission("fundamentals.gmode")){
                 if(args.length == 0){
                     player.sendMessage(ChatColor.RED + "You must provide a number!");
                 }else{

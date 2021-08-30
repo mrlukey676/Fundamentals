@@ -12,7 +12,7 @@ public class setspawn implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if(sender instanceof Player){
             Player player = (Player) sender;
-            if(player.hasPermission("admintools.setspawn")){
+            if(player.hasPermission("fundamentals.setspawn")){
                 if(args.length == 0){
                     player.setBedSpawnLocation(player.getLocation());
                     player.sendMessage(ChatColor.AQUA + "Spawn set to your current location!");

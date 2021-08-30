@@ -19,7 +19,7 @@ public final class Admintools extends JavaPlugin {
         warps.get().addDefault("DO NOT WRITE IN HERE", ("DO NOT WRITE IN HERE"));
         warps.get().options().copyDefaults(true);
         warps.save();
-        System.out.println("[AdminTools] Loaded version " + version);
+        System.out.println("[Fundamentals] Loaded version " + version);
         getCommand("fly").setExecutor(new fly());
         getCommand("vanish").setExecutor(new vanish());
         getCommand("invincible").setExecutor(new invincible());

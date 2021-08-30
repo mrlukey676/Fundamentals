@@ -13,7 +13,7 @@ public class die implements CommandExecutor {
 
         if(sender instanceof Player){
             Player player = (Player) sender;
-            if(player.hasPermission("admintools.die")){
+            if(player.hasPermission("fundamentals.die")){
                 if(args.length == 0){
                     player.setHealth(0);
                     player.sendMessage(ChatColor.AQUA + "You have killed yourself!");

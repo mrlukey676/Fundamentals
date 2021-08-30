@@ -11,7 +11,7 @@ public class nick implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if(sender instanceof Player){
             Player player = (Player) sender;
-            if(player.hasPermission("admintools.nick")){
+            if(player.hasPermission("fundamentals.nick")){
                 if(args.length == 0){
                     player.setDisplayName(player.getPlayerListName());
                     player.sendMessage(ChatColor.AQUA + "Your name has been reset to " + player.getDisplayName());

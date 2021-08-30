@@ -13,7 +13,7 @@ public class day implements CommandExecutor {
         if(sender instanceof Player){
             Player player = (Player) sender;
             World w = player.getWorld();
-            if(player.hasPermission("admintools.day")){
+            if(player.hasPermission("fundamentals.day")){
                 w.setTime(1000);
                 player.sendMessage(ChatColor.AQUA + "The time has been set to " + ChatColor.GOLD + "day!");
             }else{
