@@ -1,4 +1,4 @@
-package me.admintools.admintools.files;
+package me.admintools.fundamentals.files;
 
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;

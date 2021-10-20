@@ -1,1 +1,4 @@
-plugin-version: 0.1.5
+plugin-version: 0.2.0
+
+// This plugin used to be called AdminTools but as of version 0.2.0 was renamed to
+// Fundamentals.

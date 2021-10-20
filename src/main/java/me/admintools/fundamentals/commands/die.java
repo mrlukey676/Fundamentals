@@ -1,4 +1,4 @@
-package me.admintools.admintools.commands;
+package me.admintools.fundamentals.commands;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

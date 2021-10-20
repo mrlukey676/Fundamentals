@@ -2,7 +2,6 @@ me/admintools/admintools/commands/heal.class
 me/admintools/admintools/commands/fly.class
 me/admintools/admintools/commands/compasstarget.class
 me/admintools/admintools/commands/gmode.class
-me/admintools/admintools/commands/testdoc.class
 me/admintools/admintools/Admintools.class
 me/admintools/admintools/commands/night.class
 me/admintools/admintools/commands/day.class

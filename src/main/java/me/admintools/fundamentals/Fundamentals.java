@@ -1,12 +1,12 @@
-package me.admintools.admintools;
+package me.admintools.fundamentals;
 
-import me.admintools.admintools.commands.*;
-import me.admintools.admintools.files.warps;
+import me.admintools.fundamentals.commands.*;
+import me.admintools.fundamentals.files.warps;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class Admintools extends JavaPlugin {
+public final class Fundamentals extends JavaPlugin {
 
-    public static Admintools plugin;
+    public static Fundamentals plugin;
     String version = getConfig().getString("plugin-version");
 
     @Override
