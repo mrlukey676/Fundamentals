@@ -15,7 +15,7 @@ public class world implements CommandExecutor {
             Player player = (Player) sender;
             if(player.hasPermission("fundamentals.world")){
                 if(args.length == 0){
-                    player.sendMessage(ChatColor.RED + "This command requires an argument!");
+                    player.sendMessage(ChatColor.GREEN + "You are currently in the world " + player.getWorld());
                 }else{
                     Location loc = new Location(Bukkit.getWorld(args[0]), 0, 255, 0);
                     player.teleport(loc);
