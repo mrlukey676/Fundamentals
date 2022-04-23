@@ -1,7 +1,7 @@
 name: Admintools
 version: 1.0-SNAPSHOT
 main: me.admintools.admintools.Admintools
-api-version: 1.17
+api-version: 1.18
 authors: [ MrLukey676 ]
 description: Admin Tools by MrLukey676
 commands:

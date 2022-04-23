@@ -16,6 +16,7 @@ public class feed implements CommandExecutor {
                 if(args.length == 0){
                     player.sendMessage(ChatColor.AQUA + "You have been fed!");
                     player.setFoodLevel(20);
+                    player.setSaturation(20);
                 }else{
                     Player target = Bukkit.getPlayerExact(args[0]);
                     target.sendMessage(ChatColor.AQUA + "You have been fed by " + ChatColor.GOLD + player.getDisplayName());
